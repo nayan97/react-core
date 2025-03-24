@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Counter from './counter';
+import Batsman from './batsman';
 import './App.css'
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
 
   return (
     <>
+    <Batsman></Batsman>
+
     <Counter></Counter>
 
     </>
