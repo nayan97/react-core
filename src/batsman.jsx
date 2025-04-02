@@ -18,7 +18,7 @@ export default function Batsman(){
     }
 
     return (
-        <div>
+        <div className="card">
             <h3>Player : BD Batsman</h3>
             <h1>Score: {runs}</h1>
             <button onClick={handleSingle}>Single</button>
