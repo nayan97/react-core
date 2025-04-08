@@ -1,4 +1,5 @@
 import Nav from './components/Navbar/Nav'
+import Blogs from './components/Blogs/Blogs'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
         <Nav></Nav>
+        <Blogs></Blogs>
     </>
   )  
 }
